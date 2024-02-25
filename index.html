@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEGR game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gc" class="game-canvas" width="400" height="400"></canvas>
+    </div>
+    <div class="работа">
+        <a class="верхний arr" onclick="Snake.action('up')">
+            <i class="хз"></i></a>
+            <br />
+        <a class="левый arr" onclick="Snake.action('left')">
+            <i class="хз лево"></i></a>
+        <a class="нижний arr" onclick="Snake.action('down')">
+            <i class="хз вниз"></i></a>
+        <a class="правый arr" onclick="Snake.action('right')">
+            <i class="хз права"></i></a>
+    </div>
+    <script type="text/javascript" src="game.js"></script>
+</body>
+</html>
